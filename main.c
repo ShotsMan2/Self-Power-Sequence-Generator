@@ -3,19 +3,21 @@
 
 int main()
 {
-     int j,i,sonuc,n;
+    int j, i, sonuc, n;
 
     printf("n i gir ");
-    scanf("%d",&n);
+    scanf("%d", &n);
 
-    for(i=1;i<=n;i++){
+    for (i = 1; i <= n; i++)
+    {
 
-        sonuc=1;
+        sonuc = 1;
 
-        for(j=1;j<=i;j++){
-            sonuc=sonuc*i;
+        for (j = 1; j <= i; j++)
+        {
+            sonuc = sonuc * i;
         }
-        printf("%d ",sonuc);
+        printf("%d ", sonuc);
     }
 
     return 0;
